@@ -1,0 +1,38 @@
+.card {
+    
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: .4rem 2rem;
+    text-align: center;
+}
+.image {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 3px 5px #e9ba23;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    justify-content: center;
+
+}
+
+.desc button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to top, red, yellow);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.desc button:hover{
+    color: red;
+    background: white;
+}

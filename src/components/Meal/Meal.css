@@ -1,0 +1,28 @@
+.meal {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('../../assets/sausage-1.jpg');
+    margin: 20px 0;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.meal button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to top, red, yellow);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.meal button:hover{
+    color: red;
+    background: white;
+}
+.meal h1 {
+    font-size: clamp(1rem, 5vw, 5rem);
+}

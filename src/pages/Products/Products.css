@@ -1,0 +1,18 @@
+.products {
+    width: 90%;
+    margin: 5px auto;
+    margin-top: 45px;
+    padding: 20px;
+    border: 1px solid gray;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}

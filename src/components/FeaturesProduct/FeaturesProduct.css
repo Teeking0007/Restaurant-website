@@ -1,0 +1,18 @@
+.features {
+    
+    width: 90vw;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    
+}
+.features h1 {
+    text-align: center;
+}
+
+.card-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

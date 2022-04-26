@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 5px 20px;
+    background: transparent;
+    color: white;
+    position: relative;
+    
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+    
+    cursor: pointer;
+}
+.logo p {
+    color: white;
+}
+.logo p span {
+    color: red;
+    background-color: yellow;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-child {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: 800;
+    cursor: pointer;
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+    
+}
+.nav-child li {
+    list-style: none;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nav-child li Link{
+    text-decoration: none;
+    color: white;
+}
+.nav-child li:hover{
+    color: red;
+}
+
+@media screen and (max-width: 640px) {
+    .menu-icon {
+        display: block;
+        font-size: 1.8rem;
+    }
+    .menu-icon FaTimes {
+        transform: rotate(360deg);
+        transition: all 0.5s ease-in-out;
+    }
+    .menu-icon FaTimes {
+        transform: rotate(180deg);
+        transition: all 0.5s ease-in-out;
+    }
+    .logo {
+        font-size: 1.4rem;
+    }
+    .nav-child {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        top: 64px;
+        right: 0;
+        color: red;
+    }
+    .nav-child li {
+        text-align: center;
+        border-bottom: 1px solid white;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-child li:last-child {
+        margin-bottom: 0;
+    }
+    .closed {
+       transition: all 0.5s ease-in-out;
+       display: none;
+    }
+}

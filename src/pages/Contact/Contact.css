@@ -1,0 +1,32 @@
+.contact {
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+}
+form {
+    width: 300px;
+    
+    padding: 10px 30px;
+    margin: 30px auto;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+form div input {
+    padding: 5px 2px;
+}
+form div textarea{
+    height: 150px;
+}
+.con-button {
+    background-color: red;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    padding: 10px 20px;
+    border: none;
+}

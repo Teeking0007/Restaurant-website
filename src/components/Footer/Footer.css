@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 1px solid gray;
+}
+.logo span {
+    color: red;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    font-size: 20px;
+}
