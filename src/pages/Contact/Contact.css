@@ -5,6 +5,15 @@
     justify-content: center;
     color: white;
 }
+.con-text{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.right-side ul{
+    list-style: circle;
+}
 form {
     width: 300px;
     
